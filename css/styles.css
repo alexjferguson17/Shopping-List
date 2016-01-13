@@ -50,6 +50,26 @@
   padding-left: 35px;
 }
 
+.checkOff {
+	display: inline-block;
+	text-decoration: line-through;
+	background-image:url(../img/check.png);
+	width: 24px;
+	height: 24px;
+	position: relative;
+	right: 610px;
+	top: 2px;
+  float: right;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+.delete {
+  margin-left: 24px;
+}
+
 h2 {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
@@ -57,13 +77,25 @@ h2 {
   font-weight: bold;
 }
 
-h4 {
+li {
   text-align: center;
-  font-size: 30px;
+  font-size: 23px;
   font-family: 'Quicksand', sans-serif;
   font-weight:normal;
   margin-top: 0px;
   margin-bottom: 13px;
+	list-style: none;
+}
+
+ul {
+  padding: 0px;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+  color: #f5efed;
+  font-weight: normal;
 }
 
 #tagline {
@@ -87,4 +119,5 @@ margin: 15px auto;
 padding: 0 15px;
 text-align: center;
 width: 334px;
+outline: none;
 }
